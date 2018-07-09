@@ -1,9 +1,17 @@
 # ML-Practice-Fertility-Data-Set
 Practicing Various Models on Fertility Data Set
 
-**Abstract : ** 100 volunteers provide a semen sample analyzed according to the WHO 2010 criteria. Sperm concentration are related to socio-demographic data, environmental factors, health status, and life habits
+## Abstract ##
 
-To get the data set for yourself click [here]{https://archive.ics.uci.edu/ml/machine-learning-databases/00244/}
+100 volunteers provide a semen sample analyzed according to the WHO 2010 criteria. Sperm concentration are related to socio-demographic data, environmental factors, health status, and life habits
+
+-**Data Set Characteristics**: Multivariate
+-**Attribute Characteristics**: Real
+-**Area**: Life
+-**Number Of Attributes**:10
+-**Number Of Records**:100
+
+To get the data set for yourself click [here](https://archive.ics.uci.edu/ml/machine-learning-databases/00244/)<br/>To know more about the data click [here](https://archive.ics.uci.edu/ml/datasets/Fertility)
 
 ## Data Set Attribute Information ##
 
@@ -17,7 +25,4 @@ To get the data set for yourself click [here]{https://archive.ics.uci.edu/ml/mac
 - **Smoking habit** 1) never, 2) occasional 3) daily. (-1, 0, 1)
 - **Number of hours spent sitting per day** ene-16 (0, 1)
 - **Output**: Diagnosis normal (N), altered (O)
-
-
-
 
