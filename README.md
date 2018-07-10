@@ -47,7 +47,7 @@ Used 3 models for now :
 
 ## Final Remarks ##
 
-What I think went wrong in this is that the data set doesn't have enough Class 1 data so in the test case as you can see in the confusion matrix </br>
+What I think went wrong in this is that the data set doesn't have enough Class 1 data in the test case as you can see in the confusion matrix </br>
 
 | n=33 | Pred Class 0 | Pred Class 1 |
 | --- | --- | --- |
