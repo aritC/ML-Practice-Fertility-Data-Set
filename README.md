@@ -32,6 +32,7 @@ Used 3 models for now :
 - KNN
 - LogisticRegression
 - SVC
+- ANN
 
 **Procedure**
 
@@ -41,8 +42,9 @@ Used 3 models for now :
 4. For **SVC** again from [**model__selection**](http://scikit-learn.org/stable/modules/classes.html#module-sklearn.model_selection) library of [**sklearn**](http://scikit-learn.org) module [**GridSearchCV**](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) is used so as to find the best combination for the SVC parameters ***C*** and ***gamma***.
 <br>The best combination of parameters was found to be ***'C': 0.1*** & ***'gamma': 0.1***<br>
 5. Using this estimator data was fit into the SVC model and trained and tested.
-6. Lastly for **Logistic Regression**, simply the data was fit into the model and values were tested.
+6. For **Logistic Regression**, simply the data was fit into the model and values were tested.
 7. **Evaluation**  of the models was done by [**sklearn's**](http://scikit-learn.org) [**metrics**](http://scikit-learn.org/stable/modules/classes.html) library. Modules [**classification_report**](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html) and [**confusion_matrix**](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html) were used to check the confidence/accuracy of the model.
+8. For ANN, a simple shallow neural network was built with one hidden layer. The Keras library was used with the 'accuracy' metric.
 9. Accuracy Scores of all the models can be seen as the same as 91%.
 
 ## Final Remarks ##
@@ -55,5 +57,3 @@ What I think went wrong in this is that the data set doesn't have enough Class 1
 |Actual Class 1 | 0 | 0|
 </br>
 So these models might not be that good in predicting True Class 1. Also the data set is very small
-  
-  
