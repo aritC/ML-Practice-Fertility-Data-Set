@@ -42,7 +42,7 @@ clf.add(Dense(units=1, activation='sigmoid',kernel_initializer='uniform'))
 clf.compile(optimizer='adam', loss= 'binary_crossentropy', metrics=['accuracy'])
 
 
-clf.fit(X_train, y_train, batch_size=1, epochs=100)
+clf.fit(X_train, y_train, batch_size=10, epochs=300)
 
 y_pred = clf.predict(X_test)
 
