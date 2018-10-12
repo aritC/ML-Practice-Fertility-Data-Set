@@ -1,6 +1,11 @@
 # ML-Practice-On-Fertility-Data-Set
 Practicing Various Models on Fertility Data Set
 
+## Tools Used ##
+Programming language - Python
+Utility tools - sklearn (for machine learning implementation)
+              - keras (for deep learning implementation)
+
 ## Abstract ##
 
 100 volunteers provide a semen sample analyzed according to the WHO 2010 criteria. Sperm concentration are related to socio-demographic data, environmental factors, health status, and life habits
